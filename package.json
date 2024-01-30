@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "type": "module",
+  "license": "LGPL-2.1-or-later",
   "scripts": {
     "run": "docker-compose up -d",
     "start": "node src/index.js",
