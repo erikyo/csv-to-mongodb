@@ -32,10 +32,10 @@ Ensure you have Node.js, npm, and Docker installed on your system.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/erikyo/csv-to-mongodb.git
 
 # Change into the project directory
-cd your-repo
+cd csv-to-mongodb
 
 # Install dependencies
 npm install
@@ -60,6 +60,7 @@ project-root/
 |   |-- index.js
 |   |-- ...
 |-- data/
+|   |-- THE CSV DATASET
 |-- Dockerfile
 |-- docker-compose.yml
 |-- README.md
@@ -72,14 +73,12 @@ The configuration allows you to set up the MongoDB connection and other environm
 
 ## Endpoints
 
-List and describe the API endpoints provided by your project.
-
 - `/api`: the generated api entrypoint
 
 ## Data Model
 
 The MongoDB data model is designed to store structured information parsed from CSV files.
-You need to update the db.js mongo schema to match your requirement
+Please, update the mongo schema in db.js to match your requirement
 
 ```json
 {
