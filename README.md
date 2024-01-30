@@ -1,4 +1,4 @@
-# Project Title
+# csv-to-mongodb
 
 This project serves as a tool to create a RESTful API from CSV files. It utilizes Fastify as the web framework, MongoDB for data storage, and facilitates the transformation of CSV data into a structured API.
 
